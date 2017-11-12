@@ -1,7 +1,8 @@
 #!/bin/bash -e
 # ------parament define------------------
 target=$1;
-server_ip=192.168.1.1;
+server_ip="192.168.1.1";
+
 
 
 
@@ -15,7 +16,7 @@ yum install -y mpich \
                 nfs-utils \
                 rpcbind \
                 tmux \
-                git 
+                git
 
 pip install gprof2dot # gprof2dot change gmon.out to png
 
