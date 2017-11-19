@@ -1,4 +1,4 @@
-
+#!/bin/bash -e
 n_cpu=4;
 #------------------Source Install-----------------------
 # dependencies install
