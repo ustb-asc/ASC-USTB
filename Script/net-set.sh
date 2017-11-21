@@ -1,0 +1,16 @@
+
+
+# DEVICE=em1
+# HWADDR=D4:AE:52:63:CF:26
+# TYPE=Ethernet
+# UUID=1d2db15a-3b2c-4bc5-b7d5-c4c541c1bcef
+# ONBOOT=yes
+# NM_CONTROLLED=yes
+# BOOTPROTO=dhcp
+# IPADDR=192.168.4.10
+# NETMASK=255.255.255.0
+# GATAWAY=192.168.4.1
+
+ustb-asc1:222.28.41.221
+ustb-asc2:222.28.41.23
+ustb-asc3:222.28.41.187
