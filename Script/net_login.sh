@@ -7,5 +7,6 @@ if [[ "grep UID='${username}' LOGIN_STATUS.out" != "" ]]
 then
 echo "Login Success"
 else
-echo "Login fail"
+echo "Login Fail"
 fi
+rm -rf LOGIN_STATUS.out
