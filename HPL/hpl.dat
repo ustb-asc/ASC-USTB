@@ -1,0 +1,64 @@
+01:     HPLinpack benchmark input file                                   
+02:     ASC, USTB
+        注释说明行
+
+03:     HPL.out output file name (if any)
+        用于重定向输出
+04:     6 device out (6=stdout,7=stderr,file)
+        输出结果文件的形式
+
+05:     4 # of problems sizes (N)
+06:     29 30 34 35 Ns
+        求解矩阵的大小N
+
+07:     4 # of NBs
+08:     1 2 3 4 NBs
+        求解矩阵分块的大小NB
+
+09:     1 PMAP process mapping (0=Row-,1=Column-major)
+        选择处理器阵列是按列的排列方式还是按行的排列方式
+        缺省为列排列方式
+
+10:     3 # of process grids (P x Q)
+11:     2 1 4 Ps
+12:     2 4 1 Qs
+        二维处理器网格（P×Q）
+        z P×Q＝进程数=系统CPU数
+        z P≤Q
+        z P＝2^n
+
+13:     16.0 threshold
+        误差阈值
+
+14:     3 # of panel fact
+15:     0 1 2 PFACTs (0=left, 1=Crout, 2=Right)
+16:     2 # of recursive stopping criterium
+17:     2 4 NBMINs (>= 1)
+18:     1 # of panels in recursion
+19:     2 NDIVs
+20:     3 # of recursive panel fact.
+21:     0 1 2 RFACTs (0=left, 1=Crout, 2=Right)
+        L分解的方式
+        NDIVs选择2比较理想，NBMINs 4或8都不错
+
+22:     1 # of broadcast
+23:     0 BCASTs (0=1rg,1=1rM,2=2rg,3=2rM,4=Lng,5=LnM)
+        L的横向广播方式
+
+24:     1 # of lookahead depth
+25:     0 DEPTHs (>=0)
+        横向通信的通信深度
+
+26:     0 SWAP (0=bin-exch,1=long,2=mix)
+27:     32 swapping threshold
+        U的广播算法
+
+28:     0 L1 in (0=transposed,1=no-transposed) form
+29:     0 U in (0=transposed,1=no-transposed) form
+        L和U的数据存放格式
+
+30:     0 Equilibration (0=no,1=yes)
+        回代
+
+31:     8 memory alignment in double (> 0)
+        内存分配中作地址对齐
