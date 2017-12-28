@@ -74,7 +74,7 @@
  positive  integers  are significant, the rest is ignored. For
  example:
  
- 3000 6000 10000    Ns
+ 117234 110000 120000    Ns
  
  means that one wants xhpl to run 3 (specified in line 5) pro-
  blem sizes, namely 3000, 6000 and 10000.
