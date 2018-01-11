@@ -38,7 +38,7 @@
 14:     3 # of panel fact
 15:     0 1 2 PFACTs (0=left, 1=Crout, 2=Right)
 16:     2 # of recursive stopping criterium
-17:     2 4 NBMINs (>= 1)
+17:     2 4 NBMINs (>= 1)                       经验：NBMIN为4的效果大于2
 18:     1 # of panels in recursion
 19:     2 NDIVs
 20:     3 # of recursive panel fact.
