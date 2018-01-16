@@ -1,5 +1,6 @@
 #!/bin/bash -e
-# Usage: ./run.sh DATA_DIR
+# Usage: ./hplrun.sh DATA_DIR
+#        Use screen to run process if you may detach from ssh.
 # ------parameter define------
 if [ $# != 1 ]; then
     echo "Wrong Parameters"
