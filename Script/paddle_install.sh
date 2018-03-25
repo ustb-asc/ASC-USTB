@@ -15,8 +15,9 @@ cmake -DWITH_GPU=OFF -DWITH_TESTING=OFF -DWITH_AVX=OFF ..
 
 
 #---------------------切换GCC版本------------------------
-sudo apt-get install gcc-4.8 gcc-4.8-multilib g++-4.8 g++-4.8-multilib
+sudo apt-get install gcc-4.8 gcc-4.8-multilib   g++-4.8 g++-4.8-multilib
 
+# gcc-4.8-plugin-dev gcc-4.8-source
 #---------------update-alternatives版本管理方法----------
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 50
